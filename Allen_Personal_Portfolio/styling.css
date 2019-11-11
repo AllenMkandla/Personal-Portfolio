@@ -1,0 +1,43 @@
+body{
+    background-image: url("images/background2.jpg") ; 
+   /* margin: 100%;
+    padding: 100%;*/
+    background-size: cover;
+}
+.header{
+  
+  min-height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: large;
+ color:#0f0d0d;
+}
+/*.bg{
+ 
+}*/
+
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration-style: none;;
+}
+
+.container {
+    font-size: 20px;
+}
+
+#aboutme{height:100%;
+    width:100%;
+
+}
+
+#skills{}
+
+@media (max-width: 640px){
+    nav ul li {
+        display: list-item;
+        list-style-type: none;
+    }
+}
